@@ -19,8 +19,7 @@ namespace ICT_526_A2_Group3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            UserLogin  frm2 = new UserLogin();
-            frm2.Show();
+
         }
     }
 }
