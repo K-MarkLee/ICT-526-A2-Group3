@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace ICT_526_A2_Group3
 {
-    public partial class FORMMAINMENU : Form
+    public partial class UserLogin : Form
     {
-        public FORMMAINMENU()
+        public UserLogin()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            UserLogin  frm2 = new UserLogin();
-            frm2.Show();
         }
     }
 }

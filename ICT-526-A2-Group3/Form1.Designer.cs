@@ -1,6 +1,6 @@
 ﻿namespace ICT_526_A2_Group3
 {
-    partial class Form1
+    partial class FORMMAINMENU
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -28,13 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnUserLogin = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnUserLogin
+            // 
+            this.btnUserLogin.Location = new System.Drawing.Point(445, 182);
+            this.btnUserLogin.Name = "btnUserLogin";
+            this.btnUserLogin.Size = new System.Drawing.Size(89, 41);
+            this.btnUserLogin.TabIndex = 0;
+            this.btnUserLogin.Text = "User Login";
+            this.btnUserLogin.UseVisualStyleBackColor = true;
+            this.btnUserLogin.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // FORMMAINMENU
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.btnUserLogin);
+            this.Name = "FORMMAINMENU";
+            this.Text = "Main Menu";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnUserLogin;
     }
 }
 

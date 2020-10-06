@@ -16,7 +16,7 @@ namespace ICT_526_A2_Group3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FORMMAINMENU());
         }
     }
 }
