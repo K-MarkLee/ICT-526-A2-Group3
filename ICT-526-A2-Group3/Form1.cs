@@ -16,5 +16,10 @@ namespace ICT_526_A2_Group3
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello World");
+        }
     }
 }
